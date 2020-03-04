@@ -1,0 +1,13 @@
+<p>calendar works!</p>
+<div class="container text-center">
+    <full-calendar
+    defaultView="dayGridMonth"
+    [plugins]="calendarPlugins"
+    [weekends]="false"
+    [events]="[
+      { title: 'event 1', date: '2020-03-04' },
+      { title: 'event 2', date: '2020-03-05' }
+    ]"
+  ></full-calendar>
+
+</div>
